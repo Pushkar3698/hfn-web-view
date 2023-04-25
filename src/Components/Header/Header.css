@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgrey;
+}
+.header .nav-links {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.active {
+  color: blue;
+}
+.wallet-balance {
+  display: flex;
+  cursor: pointer;
+}
+.wallet-info {
+  margin-left: 10px;
+  text-align: center;
+}
+.wallet-info p {
+  font-size: 14px;
+}
